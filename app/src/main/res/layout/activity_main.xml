@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img">
+
+    <TextView
+        android:layout_width="189dp"
+        android:layout_height="46dp"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:onClick="WORLD_STATS"
+        android:padding="3dp"
+        android:text="WORLD_STATS"
+        android:textColor="#ffffffff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
+
+    <TextView
+        android:layout_width="122dp"
+        android:layout_height="206dp"
+
+        android:gravity="center_horizontal"
+
+        android:padding="3dp"
+        android:text="COVID\nA\nFLUCH"
+        android:textColor="#ffffffff"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.447" />
+
+    <TextView
+        android:layout_width="172dp"
+        android:layout_height="43dp"
+        android:layout_margin="30dp"
+
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:onClick="CONTAINMENT_ZONE"
+        android:padding="3dp"
+        android:text="SYMPTOMS CHECK"
+        android:textColor="#f8fcf6"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
+
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="53dp"
+        android:layout_margin="30dp"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:onClick="VACCINATION"
+        android:padding="3dp"
+        android:text="VACCINATION"
+        android:textColor="#f8fcf6"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.858" />
+
+
+    <TextView
+        android:layout_width="132dp"
+        android:layout_height="75dp"
+        android:layout_margin="25dp"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:onClick="GOVERNMENT_AID"
+        android:padding="3dp"
+        android:text="GOVERNMENT AID"
+        android:textColor="#f8fcf6"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.978"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

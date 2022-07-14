@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffe0"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+
+    <!--Linear Layout to display all the details-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <!--Text view to display Global stats-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STATE STATS"
+            android:textColor="#050505"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:padding="20dp"/>
+
+
+        <!--Text view to display Total Cases-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Total Cases"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="28sp"/>
+
+        <!--Text view to display the updated number when data
+         will fetch from the API. For now default set to 0 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/rCases"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@color/color_one"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light" />
+
+        <!--Text view to display Recovered Cases-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Recovered"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="28sp"/>
+
+        <!--Text view to display the updated number when data
+         will fetch from the API. For now default set to 0 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/rDischarged"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@color/color_one"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light" />
+
+        <!--Text view to display Critical Cases-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Confirmed Cases"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="28sp"/>
+
+        <!--Text view to display the updated number when data
+         will fetch from the API. For now default set to 0 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/rConfirmedCases"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@color/color_one"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light" />
+
+        <!--Text view to display Active Cases-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmed Cases(FOREIGN)"
+            android:paddingTop="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="28sp"/>
+
+        <!--Text view to display the updated number when data
+         will fetch from the API. For now default set to 0 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/rConfirmedCasesForeign"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@color/color_one"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light" />
+
+        <!--Text view to display Today Cases-->
+
+        <!--Text view to display Affected Countries-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deaths"
+            android:paddingTop="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="28sp"/>
+
+        <!--Text view to display the updated number when data
+         will fetch from the API. For now default set to 0 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/rDeaths"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@color/color_one"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light" />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

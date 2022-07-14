@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "854595534310",
+    "project_id": "covidafluch",
+    "storage_bucket": "covidafluch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854595534310:android:21d741f3c0a3b35dbb2a27",
+        "android_client_info": {
+          "package_name": "com.example.covid_a_fluch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854595534310-g8uiuf4drq2eqikk8o5k4nekhhoa6ocv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJdousSPZvQqyoK33yNEV-aSZ_WoeTxE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854595534310-g8uiuf4drq2eqikk8o5k4nekhhoa6ocv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

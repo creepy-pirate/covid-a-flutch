@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eee5de"
+    android:padding="20dp">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:gravity="center_horizontal"
+        android:text="CONSOLIDENCE to your closed ones. A SMALL HELP BY GOVERNMENT-->"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:onClick="COI"
+        android:text="Centre announces measures for families who lost earning members to Covid-19. All you need to know"
+        android:textColor="@color/MODERNA"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:onClick="BOI"
+        android:text="Bihar announces compensation of ₹4 lakh to kin of those who died due to Covid"
+        android:textColor="@color/MODERNA"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewGraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textStyle="bold"
+            >
+
+    <!-- Overview category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textStyle="bold"
+        >
+
+        <!-- Label -->
+        <TextView
+            android:text="YOU CAN ALSO HELP THE NEEDY"
+              android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="40dp"/>
+
+            <EditText
+                android:id="@+id/name"
+                android:hint="NAME"
+                android:inputType="textCapWords"
+                 android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="50dp"/>
+
+            <!-- Breed field -->
+            <EditText
+                android:id="@+id/age"
+                android:hint="AGE"
+                android:inputType="textCapWords"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="50dp"
+               />
+        </LinearLayout>
+            <LinearLayout
+        android:id="@+id/container_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <!-- Label -->
+        <TextView
+            android:text="Gender"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="20dp"
+            android:layout_marginLeft="40dp"/>
+
+        <!-- Input field -->
+            <EditText
+                android:id="@+id/spinner_gender"
+                android:layout_height="48dp"
+                android:layout_width="50dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="50dp"
+                android:spinnerMode="dropdown"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+    <!-- Measurement category -->
+    <LinearLayout
+        android:id="@+id/container_measurement"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Label -->
+        <TextView
+            android:text="ACCOUNT INFORMATION :"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="40dp"/>
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="2"
+            android:paddingLeft="10dp"
+            android:orientation="vertical">
+
+            <!-- Weight field -->
+            <EditText
+                android:id="@+id/account"
+                android:hint="ACCOUNT NUMBER"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="50dp"/>
+
+            <EditText
+                android:id="@+id/bank"
+                android:hint="BANK NAME"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="50dp"/>
+            <EditText
+                android:id="@+id/ifsc"
+                android:hint="AMOUNT TO PAY"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="50dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="130dp"
+                android:gravity="center"
+
+                android:onClick="DONATE"
+                android:text="DONATE">
+
+            </Button>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

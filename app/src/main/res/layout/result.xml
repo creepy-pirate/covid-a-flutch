@@ -1,0 +1,43 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LinearLayout"
+    android:background="#B33030"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewGraph"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20dp"
+        android:elevation="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YOUR COVID REPORT"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+
+            />
+        <TextView
+            android:layout_marginTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:id="@+id/TextView"
+            android:textAlignment="center"
+            android:text="CAUTION, you are having very serious symptoms.You need medical care as soon as possible, so call your doctor’s office or hospital before you go in. This will help them prepare to treat you and protect medical staff and other people.  TRY N MAINTAIN DISTANCE FROM OTHER PEOPLE THE MORE YOU CAN."
+            />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

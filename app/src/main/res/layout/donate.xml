@@ -1,0 +1,42 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b2b434">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewGraph"
+        android:layout_width="331dp"
+        android:layout_height="444dp"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="549dp"
+                android:padding="5dp"
+                android:text="THIS IS MY ONLINE PAYMENT NUMBER: 8102047930\n\n THIS IS MY ACCOUNT NUMBER: 60334260189\n\n THIS IS MY IFSC CODE: MAHB0000701 \n\n\n YOU CAN DIRECTLY DONATE TO PRIME MINISTER NATIONAL RELIEF FUND(PMNRF) "
+                android:textAlignment="center"
+                android:textSize="23dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="400dp"
+            android:gravity="center"
+            android:onClick="pmnrf"
+            android:text="LINK TO PMNRF"></Button>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
